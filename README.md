@@ -1,1 +1,1 @@
-# E-Commerce
+# E-Commerce (ReactJS Practice Project)
