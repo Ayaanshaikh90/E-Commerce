@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+  padding: 10px 0;
+  box-shadow: 1px 1px 10px #9e949471;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-logo > p {
+  font-size: 2rem;
+  align-self: end;
+  color: #373737;
+  font-weight: 600;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.nav-menu li {
+  list-style: none;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px 20px ;
+  font-size: 20px;
+  font-weight: 500;
+  color: #373737;
+}
+.nav-menu li hr {
+  border: none;
+  margin: 0px auto;
+  width: 80%;
+  height: 3px;
+  background: red;
+  border-radius: 10px;
+}
+
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  gap: 20px;
+}
+.nav-login-cart button {
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #373737;
+  font-size: 20px;
+  font-weight: 500;
+  background: white;
+  transition: transform all 0.3s ease;
+}
+
+.nav-login-cart button:active {
+  background: #f5f5f5;
+  transform: translate(0, 2px);
+}
+.cart_count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  height: 25px;
+  width: 25px;
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
