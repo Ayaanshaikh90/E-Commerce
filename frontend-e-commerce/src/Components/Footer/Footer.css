@@ -58,5 +58,6 @@
   border: none;
   border-radius: 10px;
   height: 3px;
+  background: red;
   color: #252525;
 }
